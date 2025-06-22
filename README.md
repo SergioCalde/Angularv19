@@ -8,6 +8,7 @@ Reviewing TypeScript basics.
 01. Typescript basic types. Review about let and const in javascript/Typescript, also how to assign a type to a variable of type string, number and boolean.
 02. Object and Interfaces. Review about objects and interfaces in Typescript.
 03. Functions. Review about functions in Typescript, also how to assign a type to a function and how to create a arrow function. Learn about optional parameters and default parameters. Review about interfaces in functions.
+04. Homework. Create a super hero interface.
 
 
 
