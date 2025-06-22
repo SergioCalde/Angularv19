@@ -11,6 +11,8 @@ Reviewing TypeScript basics.
 04. Homework. Create a super hero interface.
 05. Basic Destructuring. Review about basic destructuring in Typescript. Review about arrays destructuring.
 06. Function Destructuring. Review about function destructuring in Typescript.
+07. Import and Export. Review about import and export in Typescript. Review modules in Typescript.
+
 
 
 
