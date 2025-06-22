@@ -9,6 +9,7 @@ Reviewing TypeScript basics.
 02. Object and Interfaces. Review about objects and interfaces in Typescript.
 03. Functions. Review about functions in Typescript, also how to assign a type to a function and how to create a arrow function. Learn about optional parameters and default parameters. Review about interfaces in functions.
 04. Homework. Create a super hero interface.
+05. Basic Destructuring. Review about basic destructuring in Typescript. Review about arrays destructuring. 
 
 
 
