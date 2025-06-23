@@ -13,6 +13,7 @@ Reviewing TypeScript basics.
 06. Function Destructuring. Review about function destructuring in Typescript.
 07. Import and Export. Review about import and export in Typescript. Review modules in Typescript.  
 08. Classes. Review about classes in Typescript. Review how does the constructor work in classes. Review about public and private access modifiers. Review how to extend a class.
+09. Generics. Review about generics in Typescript.
 
 
 
