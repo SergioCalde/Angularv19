@@ -15,6 +15,9 @@ Reviewing TypeScript basics.
 08. Classes. Review about classes in Typescript. Review how does the constructor work in classes. Review about public and private access modifiers. Review how to extend a class.
 09. Generics. Review about generics in Typescript.
 10. Decorators. Learn about decorators in Typescript.
+11. Optional Chaining. Learn about optional chaining in Typescript. What it is and how it works. ? 
+
+
 
 
 
