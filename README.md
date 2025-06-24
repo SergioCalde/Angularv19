@@ -17,8 +17,9 @@ Reviewing TypeScript basics.
 10. Decorators. Learn about decorators in Typescript.
 11. Optional Chaining. Learn about optional chaining in Typescript. What it is and how it works. ? 
 
+## 02-bases ![Bases](https://img.shields.io/badge/bases-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+- Review how does standalone components work in Angular. How to create a router, and basic counter component.
 
-
-
+            
 
 
