@@ -20,6 +20,8 @@ Reviewing TypeScript basics.
 ## 02-bases ![Bases](https://img.shields.io/badge/bases-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 - Review how does standalone components work in Angular. How to create a router, and basic counter component.
 - Review and learn about Angular's new signals.
+- Review and learn about Angular's new computed signals.
+- Review about Angular's pipes.
 
             
 

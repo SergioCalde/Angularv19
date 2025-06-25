@@ -1,6 +1,4 @@
-import { Component, signal } from "@angular/core";
-
-
+import { ChangeDetectionStrategy, Component, signal } from "@angular/core";
 
 @Component({
   selector: 'app-counter-page',
@@ -11,7 +9,8 @@ import { Component, signal } from "@angular/core";
       margin: 5px 10px;
       width: 75px;
     }
-  `
+  `,
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 
 export class CounterPage {
