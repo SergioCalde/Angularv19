@@ -13,4 +13,8 @@ export const routes: Routes = [
     // component: CounterPage,
     loadComponent: () => import('./pages/counter/counter-page').then( m => m.CounterPage ),
   },
+  {
+    path: '**',
+    redirectTo: '',
+  }
 ];
