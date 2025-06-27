@@ -22,7 +22,7 @@ Reviewing TypeScript basics.
 - Review and learn about Angular's new signals.
 - Review and learn about Angular's new computed signals.
 - Review about Angular's pipes.
-### 02-bases Expandir Bases
+### 02-bases Expand the bases
 - Review about Router Link and Router Link Active. Also review about routerLinkActiveOptions.
 
 
