@@ -24,6 +24,7 @@ Reviewing TypeScript basics.
 - Review about Angular's pipes.
 ### 02-bases Expand the bases
 - Review about Router Link and Router Link Active. Also review about routerLinkActiveOptions.
+- Review about angular @for
 
 
 
