@@ -21,10 +21,21 @@
     </h3>
     <ul>
       @for(character of characters(); track character.id; let idx = $index) {
-        <li>
-          <span>{{ idx + 1 }} - {{ character.name }}</span>
-          <strong class="text-danger"> ({{ character.power }})</strong>
-        </li>
+        @if(character.power > 500) {
+          <li>
+            <span>{{ idx + 1 }} - {{ character.name }}</span>
+            <strong
+              [class.text-danger]="character.power > 9000"
+              [class.text-primary]="character.power < 9000">
+              ({{ character.power }})</strong>
+            <!-- <strong
+              [ngClass]="powerClasses()">
+              ({{ character.power }})</strong> -->
+          </li>
+        }
+        @else {
+          <li><strong>Very weak character</strong></li>
+        }
       }
     </ul>
   </div>

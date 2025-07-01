@@ -25,6 +25,9 @@ Reviewing TypeScript basics.
 ### 02-bases Expand the bases
 - Review about Router Link and Router Link Active. Also review about routerLinkActiveOptions.
 - Review about angular @for
+- Review about ngClass and class.classname.
+- Review about @if @else
+
 
 
 
