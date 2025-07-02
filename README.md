@@ -28,7 +28,9 @@ Reviewing TypeScript basics.
 - Review about ngClass and class.classname.
 - Review about @if @else
 - Review about how to work with input references and [value]
-- Review about use another components and inputs
+- Review about use another components and learn new input sintax
+- Review and learn about new output sintax
+
 
 
 

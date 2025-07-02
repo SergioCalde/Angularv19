@@ -25,7 +25,9 @@ export class DragonballSuperPage {
   //   }
   // })
 
-  // addCharacter() {
+  addCharacter( character: Character ) {
+    this.characters.update( (characters) => [...characters, character] );
+  }
 
   //   if( !this.name() || !this.power() || this.power() <= 0 ) return;
 

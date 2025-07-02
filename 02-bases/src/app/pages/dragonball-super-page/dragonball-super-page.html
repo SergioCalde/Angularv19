@@ -5,7 +5,9 @@
 
   <div class="col-12 col-sm-6">
 
-    <dragonball-character-add [characters]="characters()" />
+    <dragonball-character-add
+      (newCharacter)="addCharacter($event)"
+    />
 
   </div>
 
