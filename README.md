@@ -24,13 +24,14 @@ Reviewing TypeScript basics.
 - Review about Angular's pipes.
 ### 02-bases Expand the bases
 - Review about Router Link and Router Link Active. Also review about routerLinkActiveOptions.
-- Review about angular @for
+- Review about angular @for.
 - Review about ngClass and class.classname.
-- Review about @if @else
-- Review about how to work with input references and [value]
-- Review about use another components and learn new input sintax
-- Review and learn about new output sintax
-
+- Review about @if @else.
+- Review about how to work with input references and [value].
+- Review about use another components and learn new input sintax.
+- Review and learn about new output sintax.
+- Review about services, how to create the service and how to inject it (with constructor and inject).
+- Learn about angular effects.
 
 
 

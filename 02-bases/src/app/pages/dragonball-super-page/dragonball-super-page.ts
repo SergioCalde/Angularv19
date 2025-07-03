@@ -1,7 +1,8 @@
-import { Component, signal } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { CharacterListComponent } from '../../components/dragonball/character-list/character-list';
 import { Character } from '../../interfaces/character';
 import { CharacterAddComponent } from "../../components/dragonball/character-add/character-add";
+import { DragonballService } from '../../services/dragonball.service';
 
 @Component({
   selector: 'app-dragonball-super-page',
@@ -10,43 +11,15 @@ import { CharacterAddComponent } from "../../components/dragonball/character-add
 })
 export class DragonballSuperPage {
 
-  // name = signal('');
-  // power = signal(0);
+  // Previous way to inject the service
+  // constructor( private dragonballService: DragonballService ) {}
 
-  characters = signal<Character[]>([
-    { id: 1, name: 'Gokú', power: 9001 },
-    { id: 2, name: 'Vegeta', power: 8500 },
-  ]);
+  public dragonballService = inject(DragonballService);
 
+  characters = this.dragonballService.characters;
 
-  // powerClasses = computed( () => {
-  //   return {
-  //     'text-danger': true,
-  //   }
-  // })
-
-  addCharacter( character: Character ) {
-    this.characters.update( (characters) => [...characters, character] );
+  addCharacter(character: Character) {
+    this.dragonballService.addCharacter(character);
   }
-
-  //   if( !this.name() || !this.power() || this.power() <= 0 ) return;
-
-  //   const newCharacter: Character = {
-  //     id: this.characters().length + 1,
-  //     name: this.name(),
-  //     power: this.power(),
-  //   };
-
-  //   // Not recommended
-  //   // this.characters().push(newCharacter);
-
-  //   this.characters.update( (characters) => [...characters, newCharacter] );
-  //   this.resetFields();
-  // }
-
-  // resetFields(){
-  //   this.name.set('');
-  //   this.power.set(0);
-  // }
 
 }
