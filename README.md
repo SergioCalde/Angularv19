@@ -32,6 +32,7 @@ Reviewing TypeScript basics.
 - Review and learn about new output sintax.
 - Review about services, how to create the service and how to inject it (with constructor and inject).
 - Learn about angular effects.
+- Review how to load a signal from localStorage. (LinkedSignal)
 
 
 
