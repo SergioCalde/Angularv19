@@ -35,5 +35,6 @@ Reviewing TypeScript basics.
 - Review how to load a signal from localStorage. (LinkedSignal)
 - Learn about HashLocationStrategy. Use it to change the router in the url. Check the app.config.ts file.
 
-
-
+## GifsApp
+- Start with tailwindcss installation. [Tailwindcss](https://tailwindcss.com/docs/installation/framework-guides/angular)
+01. Create app, install tailwindcss and add sidebar menu. from [Dashboard Navigation](https://www.creative-tim.com/twcomponents/component/dashboard-navigation)
