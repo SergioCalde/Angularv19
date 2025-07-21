@@ -39,3 +39,4 @@ Reviewing TypeScript basics.
 - Start with tailwindcss installation. [Tailwindcss](https://tailwindcss.com/docs/installation/framework-guides/angular)
 01. Create app, install tailwindcss and add sidebar menu. from [Dashboard Navigation](https://www.creative-tim.com/twcomponents/component/dashboard-navigation)
 02. Create dashboard, trending and search components.
+03. Create router and add children routes to dashboard.
