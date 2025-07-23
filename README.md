@@ -41,3 +41,4 @@ Reviewing TypeScript basics.
 02. Create dashboard, trending and search components.
 03. Create router and add children routes to dashboard.
 04. Create SideMenuComponent and add it to dashboard. (SideMenuHeader and SideMenuOptions).
+05. Learn about angular environment variables and path alias.
