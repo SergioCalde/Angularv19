@@ -43,3 +43,4 @@ Reviewing TypeScript basics.
 04. Create SideMenuComponent and add it to dashboard. (SideMenuHeader and SideMenuOptions).
 05. Learn about angular environment variables and path alias.
 06. Review how to use @Input and adopt a component-driven mindset.
+07. Create Giphy Interface, GifService, learn about mappers and create GifMapper and get trending gifs in GifsService.
