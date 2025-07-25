@@ -45,3 +45,4 @@ Reviewing TypeScript basics.
 06. Review how to use @Input and adopt a component-driven mindset.
 07. Create Giphy Interface, GifService, learn about mappers and create GifMapper and get trending gifs in GifsService.
 08. Create Search Gifs Component, add searchGifs method to GifsService and use it in SearchGifsComponent. Work with RxJS operators (map, tap) and review how to use pipe operator.
+09. Learn about typescript [Record](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type) and load history in side menu. 
