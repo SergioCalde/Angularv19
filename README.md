@@ -44,3 +44,4 @@ Reviewing TypeScript basics.
 05. Learn about angular environment variables and path alias.
 06. Review how to use @Input and adopt a component-driven mindset.
 07. Create Giphy Interface, GifService, learn about mappers and create GifMapper and get trending gifs in GifsService.
+08. Create Search Gifs Component, add searchGifs method to GifsService and use it in SearchGifsComponent.
