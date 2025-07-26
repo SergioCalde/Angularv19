@@ -47,3 +47,4 @@ Reviewing TypeScript basics.
 08. Create Search Gifs Component, add searchGifs method to GifsService and use it in SearchGifsComponent. Work with RxJS operators (map, tap) and review how to use pipe operator.
 09. Learn about typescript [Record](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type) and load history in side menu. 
 10. Load history from localStorage and save it to localStorage. Use effect to save it to localStorage. 
+11. Create Masonry Layout and use it in TrendingPageComponent. 
