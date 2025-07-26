@@ -50,3 +50,4 @@ Reviewing TypeScript basics.
 11. Create Masonry Layout and use it in TrendingPageComponent. 
 12. Use ViewChild to get the scroll div and use it to detect when the user scrolls to the bottom of the div.
 13. Load trending gifs in TrendingPageComponent using the scroll event to load more gifs.
+14. Save scroll position in scrollStateService and use it to restore scroll position when the user returns to the trending page.
