@@ -48,3 +48,4 @@ Reviewing TypeScript basics.
 09. Learn about typescript [Record](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type) and load history in side menu. 
 10. Load history from localStorage and save it to localStorage. Use effect to save it to localStorage. 
 11. Create Masonry Layout and use it in TrendingPageComponent. 
+12. Use ViewChild to get the scroll div and use it to detect when the user scrolls to the bottom of the div.
