@@ -60,3 +60,7 @@ Reviewing TypeScript basics.
 - Create HomePageComponent and add it to homeRoutes.
 - Add footer to app.component.
 - Create a top menu component and add it to countryLayoutComponent.
+- Create search input component and add it to countryLayoutComponent.
+- Create country list component and add it to countryLayoutComponent.
+- Create by capital, by country and by region pages and add them to countryRoutes.
+- Create country page and add it to countryRoutes, to search country by code dinamically.
