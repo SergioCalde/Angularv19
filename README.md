@@ -38,7 +38,7 @@ Reviewing TypeScript basics.
 ## GifsApp
 - Start with tailwindcss installation. [Tailwindcss](https://tailwindcss.com/docs/installation/framework-guides/angular)
 01. Create app, install tailwindcss and add sidebar menu. from [Dashboard Navigation](https://www.creative-tim.com/twcomponents/component/dashboard-navigation)
-02. Create dashboard, trending and search components.
+02. Create dashboard, trending and search components. 
 03. Create router and add children routes to dashboard.
 04. Create SideMenuComponent and add it to dashboard. (SideMenuHeader and SideMenuOptions).
 05. Learn about angular environment variables and path alias.
@@ -51,3 +51,9 @@ Reviewing TypeScript basics.
 12. Use ViewChild to get the scroll div and use it to detect when the user scrolls to the bottom of the div.
 13. Load trending gifs in TrendingPageComponent using the scroll event to load more gifs.
 14. Save scroll position in scrollStateService and use it to restore scroll position when the user returns to the trending page.
+
+## Country App
+- Start with tailwindcss installation. [Tailwindcss](https://tailwindcss.com/docs/installation/framework-guides/angular)
+- Then install [DaisyUI](https://daisyui.com/docs/install/)
+- Create CountryLayoutComponent and add it to countryRoutes.
+- Create a country routes and add it to app.routes.
