@@ -57,3 +57,6 @@ Reviewing TypeScript basics.
 - Then install [DaisyUI](https://daisyui.com/docs/install/)
 - Create CountryLayoutComponent and add it to countryRoutes.
 - Create a country routes and add it to app.routes.
+- Create HomePageComponent and add it to homeRoutes.
+- Add footer to app.component.
+- Create a top menu component and add it to countryLayoutComponent.
