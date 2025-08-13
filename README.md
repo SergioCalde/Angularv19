@@ -64,3 +64,8 @@ Reviewing TypeScript basics.
 - Create country list component and add it to countryLayoutComponent.
 - Create by capital, by country and by region pages and add them to countryRoutes.
 - Create country page and add it to countryRoutes, to search country by code dinamically.
+- Learn about resource and rxResource.
+- Learn how to use decimal pipe.
+- Review about mappers.
+- Review about how to use the router to navigate to a new page.
+- Finish the country page.
