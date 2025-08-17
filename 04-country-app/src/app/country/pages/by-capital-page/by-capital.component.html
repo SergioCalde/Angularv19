@@ -1,7 +1,9 @@
 <country-search-input 
     (searchValue)="query.set($event)" 
     placeholder="Search by capital" 
-    [debounceTime]="600"/>
+    [debounceTime]="600"
+    [initialValue]="query()"
+/>
 
 <country-list 
     [countries]="countryResource.hasValue() ? countryResource.value() : []"

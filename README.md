@@ -71,3 +71,7 @@ Reviewing TypeScript basics.
 - Finish the country page.
 - Add cache to the country service.
 - learn how to use debounce in search input.
+- Learn about linked signals.
+- Learn about router query params.
+- Learn about router query params in by-capital, by-country and by-region pages.
+- Validate the region param in by-region page.
