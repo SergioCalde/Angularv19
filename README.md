@@ -69,3 +69,5 @@ Reviewing TypeScript basics.
 - Review about mappers.
 - Review about how to use the router to navigate to a new page.
 - Finish the country page.
+- Add cache to the country service.
+- learn how to use debounce in search input.
