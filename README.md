@@ -80,3 +80,5 @@ Reviewing TypeScript basics.
 - Start with tailwindcss installation. [Tailwindcss](https://tailwindcss.com/docs/installation/framework-guides/angular)
 - Then install [DaisyUI](https://daisyui.com/docs/install/)
 - Create pages and add them to app.routes.
+- Create NavbarComponent and add it to app.component.
+- Start with basic pipes. (lowercase, uppercase, titlecase) and also number pipes (number, currency, percent). [Pipes](https://angular.dev/guide/templates/pipes)
