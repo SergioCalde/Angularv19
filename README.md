@@ -75,3 +75,8 @@ Reviewing TypeScript basics.
 - Learn about router query params.
 - Learn about router query params in by-capital, by-country and by-region pages.
 - Validate the region param in by-region page.
+
+## Pipes App
+- Start with tailwindcss installation. [Tailwindcss](https://tailwindcss.com/docs/installation/framework-guides/angular)
+- Then install [DaisyUI](https://daisyui.com/docs/install/)
+- Create pages and add them to app.routes.
