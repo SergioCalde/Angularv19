@@ -83,3 +83,8 @@ Reviewing TypeScript basics.
 - Create NavbarComponent and add it to app.component.
 - Start with basic pipes. (lowercase, uppercase, titlecase) and also number pipes (number, currency, percent). [Pipes](https://angular.dev/guide/templates/pipes)
 - Learn about DatePipe and how to use it.
+- Learn about i18nSelectPipe and i18nPluralPipe.
+- Learn about SlicePipe.
+- Learn about JsonPipe.
+- Learn about KeyValuePipe.
+- Learn about AsyncPipe.
