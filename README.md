@@ -94,3 +94,4 @@ Reviewing TypeScript basics.
 - Create some custom pipes to use in the app in the custom-page component
 - Create a hero-sort-by pipe to sort the heroes by name, can fly, color and creator.
 - Sort ascending and descending by name, can fly, color and creator.
+- Create a hero-filter pipe to filter the heroes by name.
