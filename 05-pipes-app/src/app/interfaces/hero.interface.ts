@@ -18,6 +18,17 @@ export interface Hero {
   creator: Creator;
 }
 
+export enum sortHeroBy {
+  name = 'name',
+  canFly = 'canFly',
+  color = 'color',
+  creator = 'creator',
+  nameDesc = 'nameDesc',
+  canFlyDesc = 'canFlyDesc',
+  colorDesc = 'colorDesc',
+  creatorDesc = 'creatorDesc',
+}
+
 export const ColorMap = {
   [Color.red]: '#E57373',
   [Color.black]: '#424242',

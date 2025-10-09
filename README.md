@@ -92,3 +92,5 @@ Reviewing TypeScript basics.
 ### 05-pipes-app Expand the pipes
 - Learn how to create a custom pipe.
 - Create some custom pipes to use in the app in the custom-page component
+- Create a hero-sort-by pipe to sort the heroes by name, can fly, color and creator.
+- Sort ascending and descending by name, can fly, color and creator.
