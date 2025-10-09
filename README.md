@@ -91,4 +91,4 @@ Reviewing TypeScript basics.
 - Learn about AsyncPipe.
 ### 05-pipes-app Expand the pipes
 - Learn how to create a custom pipe.
-- Create some custom pipes to use in the app in the custom-page component.
+- Create some custom pipes to use in the app in the custom-page component
