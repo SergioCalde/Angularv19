@@ -10,13 +10,13 @@
 
             <!-- Campo de producto -->
             <div class="mb-3 row">
-                <label class="col-sm-3 col-form-label">Producto</label>
+                <label class="col-sm-3 col-form-label">Product</label>
                 <div class="col-sm-9">
 
                     <input type="text"
                         formControlName="name"
                         class="form-control"
-                        placeholder="Nombre del producto">
+                        placeholder="Product Name">
 
                     <span class="form-text text-danger">
                         <!-- Debe de ser de 3 letras -->
@@ -27,12 +27,12 @@
 
             <!-- Campo de producto -->
             <div class="mb-3 row">
-                <label class="col-sm-3 col-form-label">Precio</label>
+                <label class="col-sm-3 col-form-label">Price</label>
                 <div class="col-sm-9">
                     <input type="number"
                         formControlName="price"
                         class="form-control"
-                        placeholder="Precio del producto">
+                        placeholder="Product Price">
                     <span class="form-text text-danger">
                         El precio debe de ser 0 o mayor
                     </span>
@@ -41,12 +41,12 @@
 
             <!-- Campo de existencias -->
             <div class="mb-3 row">
-                <label class="col-sm-3 col-form-label">Existencias</label>
+                <label class="col-sm-3 col-form-label">Existence</label>
                 <div class="col-sm-9">
                     <input type="number"
                         formControlName="inStorage"
                         class="form-control"
-                        placeholder="Existencias del producto">
+                        placeholder="Product Existence">
 
                     <span class="form-text text-danger">
                         Las existencias deben de ser 0 o mayor
@@ -88,6 +88,15 @@
 
         <span>Value</span>
         <pre>{{ myForm.value | json }}</pre>
+        
+        <span>Errors in name field</span>
+        <pre>{{ myForm.controls["name"].errors | json }}</pre>
+
+        <span>Errors in price field</span>
+        <pre>{{ myForm.controls["price"].errors | json }}</pre>
+
+        <span>Errors in inStorage field</span>
+        <pre>{{ myForm.controls["inStorage"].errors | json }}</pre>
 
         <span>Precio</span>
         <pre>{{ myForm.controls.price.value | json }}</pre>

@@ -102,3 +102,4 @@ Reviewing TypeScript basics.
 - Create reactive layout component and add it to app.component.
 - Create reactive form and add it to basic-page component.
 - Learn about FormBuilder and how to create a reactive form.
+- Learn about Form Validators.
