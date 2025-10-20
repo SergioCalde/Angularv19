@@ -95,3 +95,10 @@ Reviewing TypeScript basics.
 - Create a hero-sort-by pipe to sort the heroes by name, can fly, color and creator.
 - Sort ascending and descending by name, can fly, color and creator.
 - Create a hero-filter pipe to filter the heroes by name.
+
+
+## Reactive Forms App
+- Create reactive routes and add them to app.routes.
+- Create reactive layout component and add it to app.component.
+- Create reactive form and add it to basic-page component.
+- Learn about FormBuilder and how to create a reactive form.
