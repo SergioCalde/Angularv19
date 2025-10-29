@@ -6,7 +6,8 @@
 
         <form
             [formGroup]="myForm"
-            autocomplete="off">
+            autocomplete="off"
+            (ngSubmit)="onSave()">
 
             <!-- Campo de producto -->
             <div class="mb-3 row">
@@ -18,10 +19,12 @@
                         class="form-control"
                         placeholder="Product Name">
 
-                    <span class="form-text text-danger">
-                        <!-- Debe de ser de 3 letras -->
-                        error message
-                    </span>
+                    @if( formUtils.isValidField( myForm, 'name' )  ){
+                        <span class="form-text text-danger">
+                            <!-- Debe de ser de 3 letras -->
+                            {{ formUtils.getFieldError( myForm, 'name' ) }}
+                        </span>
+                    }
                 </div>
             </div>
 
@@ -33,9 +36,12 @@
                         formControlName="price"
                         class="form-control"
                         placeholder="Product Price">
-                    <span class="form-text text-danger">
-                        El precio debe de ser 0 o mayor
-                    </span>
+                    @if( formUtils.isValidField( myForm, 'price' )  ){
+                        <span class="form-text text-danger">
+                            <!-- Debe de ser de 3 letras -->
+                            {{ formUtils.getFieldError( myForm, 'price' ) }}
+                        </span>
+                    }
                 </div>
             </div>
 
@@ -48,9 +54,12 @@
                         class="form-control"
                         placeholder="Product Existence">
 
-                    <span class="form-text text-danger">
-                        Las existencias deben de ser 0 o mayor
-                    </span>
+                    @if( formUtils.isValidField( myForm, 'inStorage' )  ){
+                        <span class="form-text text-danger">
+                            <!-- Debe de ser de 3 letras -->
+                            {{ formUtils.getFieldError( myForm, 'inStorage' ) }}
+                        </span>
+                    }
                 </div>
             </div>
 
@@ -99,7 +108,7 @@
         <pre>{{ myForm.controls["inStorage"].errors | json }}</pre>
 
         <span>Precio</span>
-        <pre>{{ myForm.controls.price.value | json }}</pre>
+        <pre>{{ myForm.controls["price"].value | json }}</pre>
 
         <span>Producto</span>
         <pre>{{ myForm.controls["name"].value | json }}</pre>

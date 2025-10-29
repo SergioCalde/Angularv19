@@ -103,3 +103,5 @@ Reviewing TypeScript basics.
 - Create reactive form and add it to basic-page component.
 - Learn about FormBuilder and how to create a reactive form.
 - Learn about Form Validators.
+- Learn about error messages and how to show them. Learn how to add values to the form with reset. 
+- Learn how to use a class to add custom validations to the form.
