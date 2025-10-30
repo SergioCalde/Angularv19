@@ -105,3 +105,4 @@ Reviewing TypeScript basics.
 - Learn about Form Validators.
 - Learn about error messages and how to show them. Learn how to add values to the form with reset. 
 - Learn how to use a class to add custom validations to the form.
+- Learn how to add a dynamic form. How to create a reactive form array. And how to create and delete items in the array.
