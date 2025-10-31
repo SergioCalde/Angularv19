@@ -106,3 +106,10 @@ Reviewing TypeScript basics.
 - Learn about error messages and how to show them. Learn how to add values to the form with reset. 
 - Learn how to use a class to add custom validations to the form.
 - Learn how to add a dynamic form. How to create a reactive form array. And how to create and delete items in the array.
+- Learn how to use pattern validators.
+- Learn how to create a async validator.
+- Learn how to use a custom validator.
+- Learn how to use switchMap and combineLatest(executes multiple Observables and waits for all of them to complete and emits when all of them complete).
+- Learn how to use tap and filter.
+- Learn how to use effect to subscribe to a signal.
+- learn how to load multiple selects in the same form.
