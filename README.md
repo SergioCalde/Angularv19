@@ -113,3 +113,10 @@ Reviewing TypeScript basics.
 - Learn how to use tap and filter.
 - Learn how to use effect to subscribe to a signal.
 - learn how to load multiple selects in the same form.
+
+## Lifecycle Hooks
+- Create basic routes and add them to app.routes.
+- Create basic layout component and add it to app.component.
+- Learn about lifecycle hooks.
+- Learn about ngOnInit, ngOnChanges, ngDoCheck, ngAfterContentInit, ngAfterContentChecked, ngAfterViewInit, ngAfterViewChecked, ngOnDestroy.
+- Learn about afterNextRender and afterEveryRender and Effect.
