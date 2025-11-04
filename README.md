@@ -120,3 +120,9 @@ Reviewing TypeScript basics.
 - Learn about lifecycle hooks.
 - Learn about ngOnInit, ngOnChanges, ngDoCheck, ngAfterContentInit, ngAfterContentChecked, ngAfterViewInit, ngAfterViewChecked, ngOnDestroy.
 - Learn about afterNextRender and afterEveryRender and Effect.
+
+## Maps App 
+- Create basic routes and add them to app.routes.
+- Extract the routes and add them to navbar component.
+- Get the page title from the router. (Navbar component)
+- Create a .env file and add it to gitignore. (Create a .env.template file)
