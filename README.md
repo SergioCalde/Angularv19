@@ -126,3 +126,5 @@ Reviewing TypeScript basics.
 - Extract the routes and add them to navbar component.
 - Get the page title from the router. (Navbar component)
 - Create a .env file and add it to gitignore. (Create a .env.template file)
+- Create a script to generate the .env file. (set-envs.js)
+- Create a script in package.json to generate the .env file.
