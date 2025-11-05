@@ -128,3 +128,11 @@ Reviewing TypeScript basics.
 - Create a .env file and add it to gitignore. (Create a .env.template file)
 - Create a script to generate the .env file. (set-envs.js)
 - Create a script in package.json to generate the .env file.
+- Create a fullscreen map page.
+- Create or Add a Marker with a click event.
+- Add a UUID to the marker.
+- Add markers to a signal list.
+- Fly to the marker.
+- Delete the marker.
+- Add multiple maps in the same page.
+- Make markers page responsive.
