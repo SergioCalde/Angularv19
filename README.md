@@ -136,3 +136,5 @@ Reviewing TypeScript basics.
 - Delete the marker.
 - Add multiple maps in the same page.
 - Make markers page responsive.
+- Solve problem of bundle size. (angular.json) increase budget sizes.
+- Solve mapbox-gl is not ESM compatible. (angular.json) add allowedCommonJsDependencies and mapbox-gl to dependencies.
