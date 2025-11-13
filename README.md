@@ -64,7 +64,7 @@ Reviewing TypeScript basics.
 - Create country list component and add it to countryLayoutComponent.
 - Create by capital, by country and by region pages and add them to countryRoutes.
 - Create country page and add it to countryRoutes, to search country by code dinamically.
-- Learn about resource and rxResource.
+- Learn about [resource](https://angular.dev/api/core/resource) and [rxResource](https://angular.dev/api/core/rxjs-interop/rxResource).
 - Learn how to use decimal pipe.
 - Review about mappers.
 - Review about how to use the router to navigate to a new page.
@@ -138,3 +138,14 @@ Reviewing TypeScript basics.
 - Make markers page responsive.
 - Solve problem of bundle size. (angular.json) increase budget sizes.
 - Solve mapbox-gl is not ESM compatible. (angular.json) add allowedCommonJsDependencies and mapbox-gl to dependencies.
+
+## Teslo Shop
+- Configure tailwindcss and daisyui.
+- Create basic routes and add them to app.routes.
+- Create basic layout component and add it to app.component.
+- Add custom fonts to the project.
+- Create basic product card component.
+- Create FadeIn animation.
+- Use RxResource to load the product.
+- Create product page with product carousel.
+
