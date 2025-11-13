@@ -148,4 +148,7 @@ Reviewing TypeScript basics.
 - Create FadeIn animation.
 - Use RxResource to load the product.
 - Create product page with product carousel.
+- Create a pagination component.
+- Add pagination to Home and Gender pages.
+- Add a cache to the product service.
 

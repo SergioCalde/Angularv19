@@ -4,16 +4,19 @@ import { ActivatedRoute } from '@angular/router';
 import { ProductsService } from '@products/services/products';
 import { map } from 'rxjs';
 import { ProductCard } from "@products/components/product-card/product-card";
+import { Pagination } from "@shared/components/pagination/pagination";
+import { PaginationService } from '@shared/services/pagination';
 
 @Component({
   selector: 'app-gender-page',
-  imports: [ProductCard],
+  imports: [ProductCard, Pagination],
   templateUrl: './gender-page.html',
 })
 export class GenderPage {
 
   activatedRoute = inject(ActivatedRoute);
   private productsService = inject(ProductsService);
+  paginationService = inject(PaginationService);
 
   gender = toSignal(
     this.activatedRoute.params.pipe(
@@ -22,10 +25,11 @@ export class GenderPage {
   )
 
   productsResource = rxResource({
-    params: () => ({ gender: this.gender() }),
+    params: () => ({ gender: this.gender(), page: this.paginationService.currentPage() - 1 }),
     stream: ({ params }) => {
       return this.productsService.getProducts({
-        gender: params.gender
+        gender: params.gender,
+        offset: params.page * 9,
       });
     }
   });
