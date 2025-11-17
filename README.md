@@ -151,4 +151,6 @@ Reviewing TypeScript basics.
 - Create a pagination component.
 - Add pagination to Home and Gender pages.
 - Add a cache to the product service.
-
+- Add interceptors to the app.config.ts file, to add token to the request.
+- Add guards to redirect to home page if the user is authenticated.
+- Add register page.

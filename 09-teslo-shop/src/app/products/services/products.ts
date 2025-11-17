@@ -47,7 +47,7 @@ export class ProductsService {
 
         return this.http.get<Product>(`${baseUrl}/products/${idSlug}`)
             .pipe(
-                tap( (resp) => console.log(resp)),
+                // tap( (resp) => console.log(resp)),
                 tap( (product) => {
                     this.productCache.set(idSlug, product);
                 })
