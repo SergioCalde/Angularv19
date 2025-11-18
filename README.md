@@ -154,3 +154,8 @@ Reviewing TypeScript basics.
 - Add interceptors to the app.config.ts file, to add token to the request.
 - Add guards to redirect to home page if the user is authenticated.
 - Add register page.
+- Create admin dashboard.
+- Create guards for admin dashboard.
+- Add a view for the admin dashboard.
+- Create a product admin page to create and update products.
+

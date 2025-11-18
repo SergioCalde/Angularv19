@@ -38,6 +38,8 @@ export class Auth {
 
   token = computed<string|null>(() => this._token());
 
+  isAdmin = computed<boolean>(() => this._user()?.roles.includes('admin') ?? false);
+
   login(email: string, password: string):Observable<boolean> {
     return this.http.post<AuthResponse>(`${ baseUrl }/auth/login`, { email, password })
       .pipe(
