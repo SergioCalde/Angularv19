@@ -158,4 +158,6 @@ Reviewing TypeScript basics.
 - Create guards for admin dashboard.
 - Add a view for the admin dashboard.
 - Create a product admin page to create and update products.
-
+- Learn how to upload images to the server.
+- Learn how to make a "array" of observables, and how to execute them and wait for all of them to complete and emit when all of them complete with [forkJoin](https://www.learnrxjs.io/learn-rxjs/operators/combination/forkjoin).
+- Learn how to use [switchMap](https://www.learnrxjs.io/learn-rxjs/operators/transformation/switchmap) to execute multiple Observables and wait for all of them to complete and emit when all of them complete.
