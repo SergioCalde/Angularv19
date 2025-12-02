@@ -161,3 +161,13 @@ Reviewing TypeScript basics.
 - Learn how to upload images to the server.
 - Learn how to make a "array" of observables, and how to execute them and wait for all of them to complete and emit when all of them complete with [forkJoin](https://www.learnrxjs.io/learn-rxjs/operators/combination/forkjoin).
 - Learn how to use [switchMap](https://www.learnrxjs.io/learn-rxjs/operators/transformation/switchmap) to execute multiple Observables and wait for all of them to complete and emit when all of them complete.
+
+## Angular 19+ - New Features - My Dashboard
+- Learn About control flow directives of angular.
+- Learn about @defer and @placeholder.
+- Learn about defer triggers like on hover, on idle, on interaction, on timer.
+- Learn about View Transition API.
+- Learn about Change Detection.
+- Learn about signals in services.
+- Learn how to use toSignal.
+- Review about computed signals.
